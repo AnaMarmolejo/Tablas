@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    font-family: "Rajdhani", sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px; /* Bordes redondos para las celdas */
+    overflow: hidden; /* Para los bordes redondos no se vean afectados */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #65b6cf;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #b5dfea; /* Color de fondo para filas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Color de fondo para filas impares */
+}

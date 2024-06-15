@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    font-family: "Rajdhani", sans-serif;
+    margin: 20px;
+}
+
+table {
+
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+th, td {
+    border: 2px solid #c39be7;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-style: dotted;
+}
+
+th {
+    background-color: #c59fdd;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+tr:hover {
+    background-color: #e4b5d3;
+}
+
+.multi-header th {
+    border-top: 0;
+    border-left: 0;
+    border-right: 2px solid #c39be7;
+}
+
+.multi-header th:first-child {
+    border-left: 2px solid #c39be7;
+}
+
+.title-column th {
+    border-bottom: 0;
+}
+
+.title-column th:first-child {
+    border-left: 2px solid #c39be7;
+}
